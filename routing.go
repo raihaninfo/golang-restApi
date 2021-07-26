@@ -13,6 +13,7 @@ func HandlerRouting() {
 	r.HandleFunc("/employee/{eid}", GetEmployeeById).Methods("GET")
 	r.HandleFunc("/employee", CreateEmployee).Methods("POST")
 	r.HandleFunc("/employee/{eid}", UpdateEmployee).Methods("PUT")
+	r.HandleFunc("/employee/{eid}", DeleteEmployee).Methods("DELETE")
 
 	log.Fatal(http.ListenAndServe(":8080", r))
 }
