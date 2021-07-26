@@ -13,7 +13,10 @@ func CreateEmployee(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(emp)
 }
 func GetEmployees(w http.ResponseWriter, r *http.Request) {
-
+	w.Header().Set("Content-Type", "application/json")
+	var employees []Employee
+	Database.Find(&employees)
+	json.NewEncoder(w).Encode(employees)
 }
 func GetEmployeeById(w http.ResponseWriter, r *http.Request) {
 
