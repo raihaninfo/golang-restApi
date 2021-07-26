@@ -1,6 +1,6 @@
 # golang-restApi using mux
 
-## golang restApi crud project with mySql database.
+## Golang restApi crud project with mySql database.
 
 ![alt text](images/browser.png)
 
