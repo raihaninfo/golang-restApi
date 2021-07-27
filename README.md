@@ -18,7 +18,8 @@
 
 <hr>
 
-## Test Api with  [Thunder Client](vscode:extension/rangav.vscode-thunder-client) vs code beautiful Extension. and use Best vs-code dark color [Theme](vscode:extension/raihaninfo.rm-dark-theme) <b>Rm Dark Theme</b> 
+## Test Api with  [Thunder Client](vscode:extension/rangav.vscode-thunder-client) vs code beautiful Extension. and use Best vs-code dark color [Theme](vscode:extension/raihaninfo.rm-dark-theme) **Rm Dark Theme**
+
 
 ![alt text](images/browser.png)
 
