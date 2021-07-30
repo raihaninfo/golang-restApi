@@ -71,3 +71,7 @@
 
 ![alt text](images/delete.png)
 
+<hr>
+
+## Happy Coding 💌
+
