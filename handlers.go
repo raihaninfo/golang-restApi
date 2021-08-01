@@ -6,7 +6,7 @@ import (
 
 	"github.com/gorilla/mux"
 )
-
+// create employee handler
 func CreateEmployee(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	var emp Employee
@@ -14,12 +14,15 @@ func CreateEmployee(w http.ResponseWriter, r *http.Request) {
 	Database.Create(&emp)
 	json.NewEncoder(w).Encode(emp)
 }
+// create GetEmployees handler
 func GetEmployees(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	var employees []Employee
 	Database.Find(&employees)
 	json.NewEncoder(w).Encode(employees)
 }
+
+// create GetGetEmployees handler
 func GetEmployeeById(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	var employee Employee
