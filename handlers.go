@@ -29,7 +29,7 @@ func GetEmployeeById(w http.ResponseWriter, r *http.Request) {
 	Database.First(&employee, mux.Vars(r)["eid"])
 	json.NewEncoder(w).Encode(employee)
 }
-
+// update
 func UpdateEmployee(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	var employee Employee
@@ -39,7 +39,7 @@ func UpdateEmployee(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(employee)
 
 }
-
+// delete
 func DeleteEmployee(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	var emp Employee
