@@ -3,14 +3,9 @@
 ##  Golang restAPI crud project with mySql database.
 [![Facebook-Page][facebook-shield]][facebook-url] [![Instagram][instagram-shield]][instagram-url] [![LinkedIn][linkedin-shield]][linkedin-url]
 
-  
-
 <!-- MARKDOWN LINKS & IMAGES -->
 
 <!-- -->
-
-  
-
 [facebook-shield]:  https://img.shields.io/badge/-Facebook-black.svg?style=flat-square&logo=facebook&color=555&logoColor=white
 
 [facebook-url]:  https://facebook.com/raihan.mahmudi.50
@@ -23,51 +18,30 @@
 
 [linkedin-url]:  https://www.linkedin.com/in/raihaninfo/
 
-  
-  
-
 ##  Test Api with [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client) vs code beautiful Extension. and use Best vs-code dark color [Theme](https://marketplace.visualstudio.com/items?itemName=raihaninfo.rm-dark-theme)  **Rm Dark Theme**
 
-  
-  
-
 ![alt text](images/browser.png)
-
-  
 
 ##  GET All data
 
     http://localhost:8080/employees
 
   
-
 ![alt text](images/alldata.png)
-
-  
 
 ##  GET data by id
 
     http://localhost:8080/employee/2
 
-  
-
 ##  POST new data
 
-  
-
 ![alt text](images/post.png)
-
-  
 
 ##  UPDATE data
 
 ![alt text](images/put.png)
 
-  
-
 ##  DELETE data
-
-  
 
 ![alt text](images/delete.png)
 
