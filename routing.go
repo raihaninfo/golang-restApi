@@ -7,8 +7,8 @@ import (
 	"github.com/gorilla/mux"
 )
 
-// Router function
 
+// Router function
 func HandlerRouting() {
 	r := mux.NewRouter()
 	r.HandleFunc("/employees", GetEmployees).Methods("GET")
