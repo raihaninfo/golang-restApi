@@ -17,7 +17,7 @@ var Database *gorm.DB
 var urlDSN = "root:mysql@tcp(localhost:3306)/golang-restapi?parseTime=true"
 var err error
 
-//database migrate 
+//database migrate.
 func DataMigration() {
 	Database, err = gorm.Open(mysql.Open(urlDSN), &gorm.Config{})
 	if err != nil {
