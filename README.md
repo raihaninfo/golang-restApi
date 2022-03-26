@@ -18,7 +18,7 @@
 
 [linkedin-url]:  https://www.linkedin.com/in/raihaninfo/
 
-##  Test Api with [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client) vs code beautiful Extension. and use Best vs-code dark color [Theme](https://marketplace.visualstudio.com/items?itemName=raihaninfo.rm-dark-theme)  **Rm Dark Theme**
+
 
 ![alt text](images/browser.png)
 
